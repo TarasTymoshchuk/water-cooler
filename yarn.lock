@@ -94,26 +94,13 @@ angular-route@^1.6.2:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/angular-route/-/angular-route-1.6.3.tgz#ed8f336be55f5b414b37d1e8d7c8e1850cab8f12"
 
-"angular-sanitize@>= 1.2", angular-sanitize@^1.6.2:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/angular-sanitize/-/angular-sanitize-1.6.3.tgz#f8d93cc7e7a983ad19cc96a84a88e1d65a89873b"
-
-angular-schema-form@^0.8.13:
-  version "0.8.13"
-  resolved "https://registry.yarnpkg.com/angular-schema-form/-/angular-schema-form-0.8.13.tgz#90bbe2a90664d083da3dc1271f890a94be7d140f"
-  dependencies:
-    angular ">= 1.2"
-    angular-sanitize ">= 1.2"
-    objectpath "^1.2.1"
-    tv4 "~1.0.15"
-
-angular-toastr@latest:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/angular-toastr/-/angular-toastr-2.1.1.tgz#9f8350ca482145a44d011a755b8fb3623d60544c"
-
 angular-ui-bootstrap@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/angular-ui-bootstrap/-/angular-ui-bootstrap-2.5.0.tgz#2facefb915386655dc5f44150258032517236d01"
+
+angular-ui-mask@^1.8.7:
+  version "1.8.7"
+  resolved "https://registry.yarnpkg.com/angular-ui-mask/-/angular-ui-mask-1.8.7.tgz#2935ae82345aded60e7b8c997f3902dfb8ed465b"
 
 angular-ui-router@^1.0.0-beta.2:
   version "1.0.0-rc.1"
@@ -121,7 +108,7 @@ angular-ui-router@^1.0.0-beta.2:
   dependencies:
     ui-router-core "3.1.0"
 
-"angular@>= 1.2", angular@^1.6.2:
+angular@^1.6.2:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.3.tgz#5d34b799234e8fa17c6a3a14e0258733935f43e7"
 
@@ -736,10 +723,6 @@ boom@2.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
   dependencies:
     hoek "2.x.x"
-
-bootstrap-material-lite@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-material-lite/-/bootstrap-material-lite-1.0.1.tgz#6b7b336b12c25c958e472fb4a9d876bfbb8bd5d6"
 
 bootstrap@^4.0.0-alpha.6:
   version "4.0.0-alpha.6"
@@ -3129,10 +3112,6 @@ object.omit@^2.0.0:
     for-own "^0.1.4"
     is-extendable "^0.1.1"
 
-objectpath@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/objectpath/-/objectpath-1.2.1.tgz#c87433bdd352aea014e4f9c0b52d70a42652052e"
-
 obuf@^1.0.0, obuf@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.1.tgz#104124b6c602c6796881a042541d36db43a5264e"
@@ -3978,10 +3957,6 @@ sass-loader@^6.0.1:
     lodash.tail "^4.1.1"
     pify "^2.3.0"
 
-satellizer@^0.15.5:
-  version "0.15.5"
-  resolved "https://registry.yarnpkg.com/satellizer/-/satellizer-0.15.5.tgz#43c93d2d361c4b6b6cf9d06d23b8881302b557a4"
-
 sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
@@ -4414,10 +4389,6 @@ tunnel-agent@^0.6.0:
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
   dependencies:
     safe-buffer "^5.0.1"
-
-tv4@~1.0.15:
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/tv4/-/tv4-1.0.18.tgz#7397769f00358e33bf528dc5c8764c61b6de8245"
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
