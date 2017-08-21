@@ -1,8 +1,14 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 body {
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-family: Roboto, serif;
   background: #f2f2f2; //1D1F20
+}
+
+h1 {
+  @include media-breakpoint-down(sm) {
+    font-size: 2rem;
+  }
 }
 
 label {
